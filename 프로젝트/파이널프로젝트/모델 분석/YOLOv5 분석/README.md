@@ -9,7 +9,8 @@ YOLO는  Bounding Box Regression 과 Classification을 나눠서 진행하는 Tw
 
 그리고 이미지를 S x S 개의 그리드로 나누고 이미지가 있을 법한 곳에 Bounding Box를 여러 개 예측하고 각 Bounding Box에 대한 confidence를 추출한다. 이 confidence score는 box안에 예측할 클래스가 존재하는지에 대한 파라미터를 뜻한다.
 
-![Untitled (1)](https://github.com/mingorithm/Playdata_AI_Lectures/assets/84362444/375110dc-1f2f-470c-9a25-c106137af6e5)
+![Untitled (1)](https://github.com/mingorithm/Playdata_AI_Lectures/assets/84362444/df4e6dda-8615-403a-bfc5-1a36c722282c)
+
 
 
 YOLOv5의 경우 YOLOv5s, YOLOv5m, YOLOv5l, YOLOv5x 모델로 나눠지며 위 표와 같이 s가 가장 가벼운 모델로 다른 모델보다 성능이 낮지만 프레임수가 가장 높으며 x가 제일 무거운 모델로 성능이 좋으나 프레임 수가 가장 낮습니다. 즉 위 표를 보면 정확도와 속도 사이의 trade-off 를 보여주는 좋은 예시입니다.
