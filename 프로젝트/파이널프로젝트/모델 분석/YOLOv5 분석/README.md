@@ -2,7 +2,8 @@
 
 YOLOv5는 YOLO(You Only Look Once) 객체 탐지 시스템의 2020년에 나온 버젼으로 이미지 내의 객체를 탐지하는데 사용되는 실시간 딥러닝 알고리즘입니다. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/41f10547-25da-4537-bfa4-df9dd13c3ceb/054ce6fe-81fd-4f48-b4d7-6efe2a2c8042/Untitled.png)
+![Untitled](https://github.com/mingorithm/Playdata_AI_Lectures/assets/84362444/0d831052-bab9-473f-83f9-32b67b979dbc)
+
 
 YOLO는  Bounding Box Regression 과 Classification을 나눠서 진행하는 Two Stage 방법과는 다르게 두개를 합쳐 동시에 진행함으로써 속도를 높였다. 
 
